@@ -1,0 +1,283 @@
+/*
+ * Plugin Name: WPM-Wepshop Product Management
+ * File Name: main-screen.css
+ * Plugin URI: https://4essence.com
+ * Description: this css is only for wpm-pm-v0.1.php
+ * Version: 0.1
+ * Language:HMTL & PHP & CSS  * Date: 17/10/2023
+         * Author: 4essence / Merel Rose
+         * Author URI: https://theme-fusion.com
+ * Requires PHP: 
+ *
+ * @package Wepshop Product Management
+ * @since 1.0
+*/
+
+.search-icon {
+    transform: translate(0, -50%);
+    width: 16px;
+    height: auto;
+    pointer-events: none;
+}
+.search-bar {
+    padding-left: 31px !important;
+    width: 287px;
+    height: 24px;
+    border-radius: 15px !important;
+    border: 1px solid #434343 !important;
+    background: #DDD !important;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) !important;
+}
+.main-button {
+    width: 116px;
+    height: 24px;
+    text-transform: capitalize !important;
+    border: none;
+    border-radius: 15px;
+    background: #DDD;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.venster {
+    width: 80%;
+    height: 1255%;
+    border-radius: 15px;
+    background: #DEDEDE;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.sidebar{
+    width: 15%;
+    height: 1255%;
+    border-radius: 15px;
+    background: #DEDEDE;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.text{
+    color: var(--basic-text-color, #383838) !important;
+    font-family: Roboto !important;
+    font-size: 15px;
+    text-transform: capitalize !important;
+    font-weight: 400 !important;
+}
+.data-dis{
+    position: relative;
+    left: 57px !important; 
+    width: 324px;
+    height: 22px;
+    border-radius: 5px !important;
+    background: #E4E4E4 !important;
+    margin: 0%;
+}
+.data-dis-2{
+    position: relative !important;
+    font-size: 20px !important;
+    width: 324px;
+    height: 22px;
+    margin: 0%;
+    top: 34px;
+    left: 20px;
+}
+.data-dis-text-n{
+    margin: 0% !important;
+    padding-left: 7px !important;
+    width: 220px !important;
+    position: relative !important;
+    text-overflow: ellipsis !important;
+    overflow: hidden !important;
+    font-size: 17px !important;
+}
+.data-dis-text-t{
+    margin: 0% !important;
+    top: -1px !important;
+    padding-left: 230px !important;
+    position: absolute !important;
+    width: 99px !important;
+    font-size: 17px !important;
+}
+
+.in-name-fill{
+    width: 324px !important;
+    height: 28px !important;
+    border-radius: 5px !important;
+    background: #C1C1C1 !important;
+    border: none !important;
+    position: absolute !important;
+    right: -50px !important;
+}
+
+.button{
+    width: 100px;
+    height: 26px;
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    background: #D9D9D9 !important;
+    text-align: center !important;
+    border: 1px solid rgba(56, 56, 56, 0.50) !important;
+    border-bottom: none !important;
+    position: relative !important;
+}
+
+.s-venster{
+    width: 609px;
+    height: 602px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background: #D9D9D9;
+    position: relative;
+    border: 1px solid rgba(56, 56, 56, 0.50);
+}
+
+.close{
+    width: 15.409px;
+    height: 15.409px;
+    border-radius: 5px;
+    background: #C2C2C2;
+    color: #F00 !important;
+    border: none;
+    padding-left: 4.11px;
+    padding-right: 4.11px;
+    padding-top: 1.03px;
+    padding-bottom: 1.03px;
+    text-align: center;
+}
+
+.in{
+    height: 28px !important;
+    border-radius: 5px !important;
+    background: #C1C1C1 !important;
+    border: none !important;
+    position: relative !important;
+}
+
+.btn-add{
+    width: 41px;
+    height: 20px;
+    border-radius: 5px;
+    background: #A9A9A9;
+    font-size: 15px;
+    border: none;
+}
+
+.stroke{
+    top: 60px;
+    color: #8F8F8F;
+    position: relative;
+}
+
+.flow{
+    position: relative;
+    top: 50px;
+    white-space: nowrap; 
+    overflow: auto;
+    height: 430px;
+}
+
+.add-product{
+    width: 1004px;
+    height: 360px;
+    border-radius: 15px;
+    border: 1px solid rgba(56, 56, 56, 0.50);
+    background: #D9D9D9;
+    position: relative;
+}
+
+.btn-spec{
+    width: 115px;
+    height: 25px;
+    border-radius: 5px;
+    background: #A9A9A9;
+    font-size: 18px;
+    border: none;
+}
+
+.add{
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    background: #A9A9A9;
+    font-size: 18px;
+    border: none;
+    position: absolute;
+}
+
+.product {
+    border-radius: 15px;
+    border: 1px solid #C0C0C0;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px 4px rgba(139, 139, 139, 0.25) !important;
+    width: 97% !important;
+    height: 140.889px;
+    left: 1.5% !important;
+    position: relative;
+}
+
+.categorie {
+    border:none; 
+    background: #DEDEDE;
+    position: relative;
+    font-size: large;
+    top: 96%;
+    left: 80%;
+    width: 25px;
+    height: 25px;
+}
+
+.dropbtn {
+    border-radius: 5px;
+    background: #C1C1C1 !important;
+    border: none;
+    cursor: pointer;
+    width: 193px;
+    height: 30px;
+    text-align: left;
+}
+
+#myInput {
+    height: 2px;
+    background-position: 14px 12px;
+    width: 176px;
+    font-size: 20px;
+    padding: 14px 40px 12px 5px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.add-cat{
+    width: 519px !important;
+    height: 52px !important;
+    border-radius: 5px;
+    background: #D9D9D9;
+    border: 1px solid rgba(56, 56, 56, 0.50);
+}
+
+.in-name-cat{
+    width: 251px !important; 
+    height: 20px !important; 
+    border-radius: 5px; 
+    background: #C1C1C1 !important;
+    border: none !important;
+}
+
+.in-name-t-cat{
+    width: 64px !important;
+    height: 20px !important;
+    border-radius: 5px;
+    background: #C1C1C1 !important;
+    border: none !important;
+}
+
+.side-tag {
+    width: 100%;
+    height: 24px;
+    border-radius: 15px;
+    background: #C9C9C9;
+    position: absolute;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 18px;
+    color: #595252 !important;
+}
