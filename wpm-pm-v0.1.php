@@ -1,17 +1,4 @@
-<!--
- * Plugin Name: WPM-Wepshop Product Management
- * File Name: product main
- * Plugin URI: https://4essence.com
- * Discription: this is code to change your products/categories and add products/categories
- * Version: 0.1
- * Language:PHP & HTML & CSS & JAVA * Date: 17/10/2023
-         * Author: 4essence / Merel Rose de Vries
-         * Author URI: https://theme-fusion.com
- * Requires PHP: 
- *
- * @package Wepshop Product Management
- * @since 1.0
--->
+
 <!-- script for specification venster -->
 <script>
     function showDiv(showId, hideId) {
