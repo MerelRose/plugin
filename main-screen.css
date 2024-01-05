@@ -1,18 +1,3 @@
-/*
- * Plugin Name: WPM-Wepshop Product Management
- * File Name: main-screen.css
- * Plugin URI: https://4essence.com
- * Description: this css is only for wpm-pm-v0.1.php
- * Version: 0.1
- * Language:HMTL & PHP & CSS  * Date: 17/10/2023
-         * Author: 4essence / Merel Rose
-         * Author URI: https://theme-fusion.com
- * Requires PHP: 
- *
- * @package Wepshop Product Management
- * @since 1.0
-*/
-
 .search-icon {
     transform: translate(0, -50%);
     width: 16px;
